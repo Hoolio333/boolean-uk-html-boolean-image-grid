@@ -2,25 +2,49 @@
   box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+  height: calc(100vh - 60px);
+  scroll-behavior: smooth;
+}
+
 /* Header Section */
 
-/* header {
-
-} */
-
-.header-layout {
-  display: grid;
-  grid-template-columns: auto;
+header {
+  background-color: rgb(5, 5, 61);
+  height: 30px;
 }
 
 .logo {
-}
-
-.space {
-}
-
-.header-footer-color {
-  background-color: rgb(5, 5, 61);
+  padding-left: 10px;
 }
 
 /* Main Section  */
+
+.cards {
+}
+
+.card-container {
+}
+
+.top-image {
+}
+
+.icons {
+}
+
+.git-hub-logo {
+}
+
+.twitter-logo {
+}
+
+.writing {
+}
+
+/* footer  */
+
+footer {
+  background-color: rgb(5, 5, 61);
+  height: 30px;
+}
