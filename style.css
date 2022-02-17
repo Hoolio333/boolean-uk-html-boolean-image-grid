@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Header Section */
+
+/* header {
+
+} */
+
+.header-layout {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.logo {
+}
+
+.space {
+}
+
+.header-footer-color {
+  background-color: rgb(5, 5, 61);
+}
+
+/* Main Section  */
