@@ -21,25 +21,48 @@ header {
 
 /* Main Section  */
 
+.responsive-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
 .cards {
 }
 
 .card-container {
+  padding: 2px;
+  margin: 2px;
+  border: 2px solid rgb(0, 0, 0);
+  width: fit-content;
+}
+
+.three-row-grid {
+  display: grid;
+  grid-template-rows: "top-image icons writing" auto / auto;
 }
 
 .top-image {
 }
 
 .icons {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: right;
+  padding: 5px;
 }
 
-.git-hub-logo {
-}
+/* .git-hub-logo {
+} */
 
 .twitter-logo {
+  padding-left: 5px;
 }
 
-.writing {
+/* .writing {
+} */
+
+.center-writing {
+  margin: 0 auto;
 }
 
 /* footer  */
